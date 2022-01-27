@@ -1,4 +1,3 @@
-monorepo
---------
+# monorepo
 
-Monorepo setup with Lerna and Yarn workspaces
+Boilerplate for Monorepo with Lerna and Yarn workspaces
