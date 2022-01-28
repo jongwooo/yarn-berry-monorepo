@@ -4,7 +4,8 @@
   "scripts": {
     "lerna": "lerna",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
