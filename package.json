@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "lerna": "lerna",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "workspaces": [
     "packages/*"
