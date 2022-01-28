@@ -11,6 +11,7 @@
 # Icon must end with two \r
 Icon
 
+
 # Thumbnails
 ._*
 
@@ -30,8 +31,25 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### WebStorm ###
 .idea
+
 
 ### yarn ###
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
@@ -44,4 +62,4 @@ Temporary Items
 !.yarn/sdks
 !.yarn/versions
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,webstorm
+# End of https://www.toptal.com/developers/gitignore/api/macos,webstorm,react,yarn
