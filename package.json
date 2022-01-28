@@ -1,11 +1,17 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
   },
   "packageManager": "yarn@3.1.1"
 }
